@@ -1,4 +1,4 @@
 ExUnit.start()
 
-# Configure ExVCR
-ExVCR.Config.cassette_library_dir("test/fixture/vcr_cassettes")
+Mox.defmock(HTTPClientMock, for: HTTPoison.Base)
+Application.put_env(:my_app, :api_handler, HTTPClientMock)
