@@ -3,6 +3,10 @@ defmodule APIHandlerTest do
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
 
   doctest APIHandler
+  setup do
+    ExVCR.Config.cassette_library_dir("test/fixture/vcr_cassettes")
+    :ok
+  end
 
   describe "get_bookings/1" do
     test "returns {:ok, _} from valid url" do
