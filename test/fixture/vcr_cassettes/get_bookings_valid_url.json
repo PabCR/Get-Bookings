@@ -1,0 +1,26 @@
+[
+  {
+    "request": {
+      "options": [],
+      "body": "",
+      "url": "https://dz4o5.wiremockapi.cloud/productmgmt/api/api/searchbooking",
+      "headers": {
+        "Authorization": "Bearer 9e3011c7-e012-4f42-94af-9ed6234d3dd6"
+      },
+      "method": "post",
+      "request_body": ""
+    },
+    "response": {
+      "binary": false,
+      "type": "ok",
+      "body": "{\n\"TotalBookingsFound\": 1,\n\"Bookings\": [\n{\n\"BookingNumber\": 0,\n\"DepartureDate\": \"2019-08-24T14:15:22Z\",\n\"ArrivalDate\": \"2019-08-24T14:15:22Z\",\n\"InternalReference\": \"string\",\n\"ExternalBookingNumber\": \"string\",\n\"CreateTimeStamp\": \"2019-08-24T14:15:22Z\",\n\"BookingStatus\": \"string\",\n\"AgentNumber\": \"string\",\n\"CustomerNumber\": \"string\",\n\"ChangeTimeStamp\": \"2019-08-24T14:15:22Z\",\n\"Type\": \"string\",\n\"Name\": \"string\",\n\"PaymentStatus\": 1,\n\"BookingVersion\": 0,\n\"ProjectCode\": \"string\",\n\"Email\": \"string\",\n\"CurrencyCode\": \"string\",\n\"ProductCode\": \"string\",\n\"PaymentMethod\": \"string\",\n\"PaymentType\": \"string\",\n\"CreatorInitials\": \"string\",\n\"ChangedByInitials\": \"string\",\n\"PoNumber\": \"string\"\n}\n]\n}",
+      "headers": {
+        "Vary": "Origin",
+        "Matched-Stub-Id": "8c8dd421-a120-4db0-b0bb-8adca8adc191",
+        "Matched-Stub-Name": "HOGIA Bookings stub 1",
+        "Content-Length": "685"
+      },
+      "status_code": 200
+    }
+  }
+]
