@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <SearchBookingsResponse xmlns="http://hfs.hogia.fi/webservices/">
+            <SearchBookingsResult>
+                <HasError>false</HasError>
+                <ErrorCode xsi:nil="true" />
+                <SearchBookings>
+                    <SearchBooking>
+                        <BookingNumber>550348</BookingNumber>
+                        <DepartureDate>2024-06-25T00:00:00</DepartureDate>
+                        <ArrivalDate xsi:nil="true" />
+                        <InternalReference />
+                        <CreateTimeStamp>2023-09-21T11:02:49.063</CreateTimeStamp>
+                        <BookingStatus>X</BookingStatus>
+                        <CustomerNumber>100636</CustomerNumber>
+                        <ChangeTimeStamp>2024-06-25T10:26:56.807</ChangeTimeStamp>
+                        <Type>R</Type>
+                        <Name>GREGORY MACKO</Name>
+                        <PaymentStatus>FullyPaid</PaymentStatus>
+                        <OptionDateFully xsi:nil="true" />
+                        <OptionDatePartly xsi:nil="true" />
+                        <OptionDateRuleId xsi:nil="true" />
+                        <BookingVersion>11</BookingVersion>
+                        <ProjectCode />
+                    </SearchBooking>
+                    <SearchBooking>
+                        <BookingNumber>550349</BookingNumber>
+                        <DepartureDate>2024-06-25T00:00:00</DepartureDate>
+                        <ArrivalDate xsi:nil="true" />
+                        <InternalReference />
+                        <CreateTimeStamp>2023-09-21T11:04:07.323</CreateTimeStamp>
+                        <BookingStatus>X</BookingStatus>
+                        <CustomerNumber>100636</CustomerNumber>
+                        <ChangeTimeStamp>2024-06-25T10:25:42.647</ChangeTimeStamp>
+                        <Type>R</Type>
+                        <Name>GREGORY MACKO</Name>
+                        <PaymentStatus>FullyPaid</PaymentStatus>
+                        <OptionDateFully xsi:nil="true" />
+                        <OptionDatePartly xsi:nil="true" />
+                        <OptionDateRuleId xsi:nil="true" />
+                        <BookingVersion>10</BookingVersion>
+                        <ProjectCode />
+                    </SearchBooking>
+                    <SearchBooking>
+                        <BookingNumber>563628</BookingNumber>
+                        <DepartureDate>2024-06-25T00:00:00</DepartureDate>
+                        <ArrivalDate xsi:nil="true" />
+                        <CreateTimeStamp>2024-02-28T13:09:46.263</CreateTimeStamp>
+                        <BookingStatus>X</BookingStatus>
+                        <ChangeTimeStamp>2024-06-25T10:59:57.353</ChangeTimeStamp>
+                        <Type>R</Type>
+                        <Name>TAYLOR FISCHER</Name>
+                        <PaymentStatus>FullyPaid</PaymentStatus>
+                        <OptionDateFully xsi:nil="true" />
+                        <OptionDatePartly xsi:nil="true" />
+                        <OptionDateRuleId xsi:nil="true" />
+                        <BookingVersion>4</BookingVersion>
+                    </SearchBooking>
+                    <SearchBooking>
+                        <BookingNumber>563826</BookingNumber>
+                        <DepartureDate>2024-06-21T00:00:00</DepartureDate>
+                        <ArrivalDate>2024-06-25T00:00:00</ArrivalDate>
+                        <CreateTimeStamp>2024-03-04T09:55:30.26</CreateTimeStamp>
+                        <BookingStatus>X</BookingStatus>
+                        <ChangeTimeStamp>2024-06-25T10:52:49.203</ChangeTimeStamp>
+                        <Type>F</Type>
+                        <Name>CHRISTINA MASTROIANNI KEARNS</Name>
+                        <PaymentStatus>FullyPaid</PaymentStatus>
+                        <OptionDateFully xsi:nil="true" />
+                        <OptionDatePartly xsi:nil="true" />
+                        <OptionDateRuleId xsi:nil="true" />
+                        <BookingVersion>6</BookingVersion>
+                    </SearchBooking>
+                    <SearchBooking>
+                        <BookingNumber>564121</BookingNumber>
+                        <DepartureDate>2024-06-21T00:00:00</DepartureDate>
+                        <ArrivalDate>2024-06-25T00:00:00</ArrivalDate>
+                        <CreateTimeStamp>2024-03-12T10:28:07.157</CreateTimeStamp>
+                        <BookingStatus>X</BookingStatus>
+                        <ChangeTimeStamp>2024-06-25T10:42:30.097</ChangeTimeStamp>
+                        <Type>F</Type>
+                        <Name>CHARLES ODONOVAN</Name>
+                        <PaymentStatus>FullyPaid</PaymentStatus>
+                        <OptionDateFully xsi:nil="true" />
+                        <OptionDatePartly xsi:nil="true" />
+                        <OptionDateRuleId xsi:nil="true" />
+                        <BookingVersion>6</BookingVersion>
+                    </SearchBooking>
+                </SearchBookings>
+            </SearchBookingsResult>
+        </SearchBookingsResponse>
+    </soap:Body>
+</soap:Envelope>

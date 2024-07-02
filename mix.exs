@@ -21,6 +21,7 @@ defmodule APIHandler.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:sweet_xml, "~> 0.7.4"},
       {:httpoison, "~> 2.0"},
       {:exvcr, "~> 0.13", only: :test}
       # {:dep_from_hexpm, "~> 0.3.0"},
